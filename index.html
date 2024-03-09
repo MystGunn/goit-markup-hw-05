@@ -58,8 +58,16 @@
           Effective Solutions <br />
           for Your Business
         </h1>
-        <button type="button" class="order-button">Order Service</button>
+        <button type="button" class="order-button" data-modal-open>
+          Order Service
+        </button>
       </section>
+      <div class="modal is-hidden" data-modal>
+        <div class="modal-content">
+          <button class="close-btn" data-modal-close>&times;</button>
+          Continut
+        </div>
+      </div>
 
       <!-- Effective solutions -->
       <section class="section-container">
@@ -405,8 +413,8 @@
           digital marketing & growth solutions.
         </p>
 
-        <p>Social media</p>
         <div class="media-list">
+          <p>Social media</p>
           <a
             href="https://www.instagram.com"
             target="_blank"
@@ -453,5 +461,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
