@@ -391,8 +391,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   top: 100px;
-  height: 300px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   background-color: #4d5ae5;
   opacity: 1;
@@ -406,7 +406,7 @@ a:hover {
 }
 
 .img-overlay:hover .overlay {
-  transform: translateY(0px);
+  transform: translateY(-45%);
   transition: var(--transition);
   cursor: pointer;
 }
